@@ -1,0 +1,18 @@
+{
+    "name": "EvanDotPro/EdpMarkdown",
+    "type": "library",
+    "description": "Complete integration of Markdown for Zend Framework 2",
+    "keywords": ["markdown"],
+    "homepage": "https://github.com/EvanDotPro/EdpMarkdown",
+    "require": {
+        "php": ">=5.3.3",
+    },
+    "autoload": {
+        "psr-0": {
+            "EdpMarkdown": "."
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
